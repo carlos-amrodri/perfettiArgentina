@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;1,800&family=Hind:wght@300;400;600&family=Rubik:wght@500&display=swap');
+.fontPerfetti {
+    font-family: 'Hind', sans-serif;
+}
+.h1,h2,h3,h4,h5{
+    font-family: 'Hind', sans-serif;
+}
+.fontPerfetti h4{
+    font-weight: 400, regular;
+}
+.titulo{
+    font-family: 'Hind', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-weight: 500;
+    font-size: 4rem;
+}
+/*sombra */
+.sombra{
+    -webkit-box-shadow: 10px 10px 10px 10px rgba (113,165,214,0.7); 
+    box-shadow: 50px 50px 50px 50px rgba (1,1,2,0.7) !important;
+}
+/* Navegador */
+
+.mxLista li, a:hover{
+    color: #71a5d6 !important;
+}
+.mxLista li,a{
+    color: black;
+}
+.icoMx{
+    /* color: #71a5d6 !important; */
+    color: #4fc3f7 !important;
+}
+
+
+/* Sub navegador */
+.subNavegador{
+    /* height:  15px; */
+
+    /* background-color:#64b5f6 ; */
+background: #f0f9ff;
+background: -moz-linear-gradient(top, #f0f9ff 0%, #a1dbff 0%, #cbebff 58%);
+background: -webkit-linear-gradient(top, #f0f9ff 0%,#a1dbff 0%,#cbebff 58%);
+background: linear-gradient(to bottom, #f0f9ff 0%,#a1dbff 0%,#cbebff 58%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#cbebff',GradientType=0 );
+}
+
+/* Baner */
+.subBanner{
+    background-image: url("../../recursos/neuro1.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    /* border-radius: 20px; */
+    
+}
+
+
+.bannerImg{
+    height: 150px;
+    width: 300px;
+}
+.carousel-indicators li{
+    /* background: #71a5d6 !important; */
+    background: #4fc3f7 !important;
+}
+.btnCarrusel{
+    /* background: #71a5d6; */
+    background: #4fc3f7 !important;
+    color: whitesmoke !important;
+}
+
+.container-fluid h3,h1,h5,p{
+    font-family: 'Hind', sans-serif;
+}
+
+
+#aparecer{
+    opacity: 0.3;
+
+}
+
+/* Sobre nosotros */
+
+.colorLateral{
+    -webkit-border-radius: 30px 0 0 0;
+    border-radius: 30px 0 0 0;
+    
+
+    background: #f0f9ff;
+    background: -moz-linear-gradient(left,  #f0f9ff 0%, #cbebff 98%, #a1dbff 100%, #a1dbff 100%);
+    background: -webkit-linear-gradient(left,  #f0f9ff 0%,#cbebff 98%,#a1dbff 100%,#a1dbff 100%);
+    background: linear-gradient(to right,  #f0f9ff 0%,#cbebff 98%,#a1dbff 100%,#a1dbff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=1 );
+
+}
+.colorLateral2{
+    -webkit-border-radius: 30px 0 0 0;
+    border-radius: 30px 0 0 0;
+    background: #e1f5fe;
+}
+.colorLateral3 {
+    background: white;
+}
+
+.usSubLista{
+ /*   color: #448aff !important; */
+   color: #0097a7 !important;
+}
+.usSubListaIco{
+    height: 20px;
+    width: 16px;
+   
+}
+
+.media-body h3{
+    color: black;
+}
+
+/* Que hacemos */
+.qhacemos {
+    background-color: #e1f5fe;
+
+}
+
+.mxCard{
+ background: white;
+    
+}
+.mxCard h5{
+    color: lightslategray;
+}
+.mxCard2{
+    background: white;
+}
+.mxCard2 h2,p{
+font-family: 'Hind', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+}
+
+.mxCard2 h2{
+    font-weight: 800;
+}
+
+.mxCard2 p{
+    font-weight: 400;
+    font-family: 'Hind', sans-serif;
+    color: lightslategray;
+}
+
+.testimonials{
+    background: #4fc3f7;
+    color: white;
+    font-family: 'Hind', sans-serif;
+}
+
+.h4Light{
+    color: #757575;
+}
+
+.footer{
+    background: #263238;
+  
+}
+.footerBox h5,h3,p{
+    border-color: white;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.footerList {
+    list-style: none;
+}
+
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
