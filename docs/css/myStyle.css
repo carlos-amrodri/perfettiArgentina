@@ -20,6 +20,7 @@
 .sombra{
     -webkit-box-shadow: 10px 10px 10px 10px rgba (113,165,214,0.7); 
     box-shadow: 50px 50px 50px 50px rgba (1,1,2,0.7) !important;
+
 }
 /* Navegador */
 
@@ -37,14 +38,18 @@
 
 /* Sub navegador */
 .subNavegador{
-    /* height:  15px; */
 
-    /* background-color:#64b5f6 ; */
-background: #f0f9ff;
+    background: #47BDD5;
+   
+
+/* background: #f0f9ff;
 background: -moz-linear-gradient(top, #f0f9ff 0%, #a1dbff 0%, #cbebff 58%);
 background: -webkit-linear-gradient(top, #f0f9ff 0%,#a1dbff 0%,#cbebff 58%);
 background: linear-gradient(to bottom, #f0f9ff 0%,#a1dbff 0%,#cbebff 58%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#cbebff',GradientType=0 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#cbebff',GradientType=0 ); */
+}
+.subNavegador i{
+    color: whitesmoke;
 }
 
 /* Baner */
