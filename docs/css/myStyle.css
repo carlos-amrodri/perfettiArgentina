@@ -34,7 +34,8 @@
 }
 .icoMx{
     /* color: #71a5d6 !important; */
-    color: #4fc3f7 !important;
+    color: whitesmoke !important;
+    background: #47BDD5;
 }
 
 
@@ -128,8 +129,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', end
 
 /* Que hacemos */
 .qhacemos {
-    background-color: #e1f5fe;
+    /* background-color: #e1f5fe; */
+    background-color: rgba(71, 189, 213, 0.2);
 
+
+}
+
+.card-body p{
+    color: lightslategrey;
 }
 
 .mxCard{
@@ -159,7 +166,7 @@ font-family: 'Barlow Condensed', sans-serif;
 }
 
 .testimonials{
-    background: #4fc3f7;
+    background: #47BDD5;
     color: white;
     font-family: 'Hind', sans-serif;
 }
@@ -167,7 +174,10 @@ font-family: 'Barlow Condensed', sans-serif;
 .h4Light{
     color: #757575;
 }
-
+/* Footer */
+.preFooter{
+    background: #47BDD5;
+}
 .footer{
     background: #263238;
   
@@ -198,3 +208,4 @@ font-family: 'Barlow Condensed', sans-serif;
     text-align:center;
     z-index:999;
 }
+
