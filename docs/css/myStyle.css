@@ -194,7 +194,7 @@ font-family: 'Barlow Condensed', sans-serif;
 .footerList {
     list-style: none;
 }
-
+/* 
 .btn-whatsapp {
     display:block;
     width:70px;
@@ -207,5 +207,23 @@ font-family: 'Barlow Condensed', sans-serif;
     line-height:80px;
     text-align:center;
     z-index:999;
-}
+} */
 
+/** Boton flotante ***/
+.btn-float{
+    display:block;
+    width:70px;
+    height:70px;
+    background: #4caf50;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+.btn-float i{
+    color: aliceblue;
+    font-size: 2em;
+}
