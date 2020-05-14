@@ -37,7 +37,9 @@
     color: whitesmoke !important;
     background: #47BDD5;
 }
-
+.active{
+    color: #0277bd;
+}
 
 /* Sub navegador */
 .subNavegador{

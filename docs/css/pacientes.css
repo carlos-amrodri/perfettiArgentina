@@ -1,0 +1,59 @@
+.service-grids h4 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+}
+.service-grids p {
+    font-size: 15px;
+    color: #777;
+    font-weight: normal;
+    letter-spacing: .5px;
+}
+.ser_icon .bg1 {
+    background: #fd5c63;
+}
+.ser_icon .bg2 {
+    background: #f48924;
+}
+.ser_icon .bg3 {
+    background: #30c39e;
+}
+.ser_icon .bg4 {
+    background: #00bce4;
+}
+
+.ser_icon span.fa {
+    font-size: 25px;
+    color: #fff;
+    line-height: 80px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+
+.about-box .icon, .ser_icon .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    line-height: 80px;
+    text-align: center;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    background: #00bcd5;
+}
+
+@media(max-width:415px) {
+    .about-box .icon, .ser_icon .icon {
+		width: 70px;
+		height: 70px;
+		line-height: 70px;
+	}
+}
