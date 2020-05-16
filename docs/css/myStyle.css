@@ -64,7 +64,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', end
     font-weight:  600, Semi-bold;
 }
 .subBanner{
-    background-image: url("../img/neuro2.jpg");
+    background-image: url("../img/bannerMain.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -137,6 +137,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', end
 
 }
 
+.card-body{
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
 .card-body p{
     color: lightslategrey;
 }
@@ -159,6 +164,7 @@ font-family: 'Barlow Condensed', sans-serif;
 
 .mxCard2 h2{
     font-weight: 800;
+    font-size: medium;
 }
 
 .mxCard2 p{
@@ -206,7 +212,7 @@ font-family: 'Barlow Condensed', sans-serif;
 .footerList {
     list-style: none;
 }
-/* 
+
 .btn-whatsapp {
     display:block;
     width:70px;
@@ -219,7 +225,7 @@ font-family: 'Barlow Condensed', sans-serif;
     line-height:80px;
     text-align:center;
     z-index:999;
-} */
+}
 
 /** Boton flotante ***/
 .btn-float{
